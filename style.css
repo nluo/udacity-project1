@@ -14,24 +14,34 @@ body{
 
 .header {
 	display: flex;
-
+	flex-wrap: wrap;
+	width: 90vw;
+	margin: 0 auto;
 }
 
-.logo {
+.header .about {
+	text-align: right;
+	width: 80%;
+}
+
+.header .logo {
+	width: 20%;
+}
+
+.header .logo .round {
+	padding: 2%;
 	background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
-    width: 30vw;
+    width: 100px;
     height: 100px;
-    background-image: url('images/logo.jpg');
+    background-image: url('images/tile-bg-2.jpg');
 }
 .container {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 }
-
-
 
 .box img {
 	width: 100%;
@@ -70,12 +80,32 @@ body{
 /*  
  iPad screen 
  */
-@media (min-width: 600px) {
+@media (min-width: 600px) and (max-width: 968px) {
 	.project {
 		width: 33.3%;
 	}
-	.content {
-		height: 300px;
+	.content img{
+		height: 50vh;
+	}
+}
+
+
+@media (min-width: 1024px) {
+	.header {
+		width: 1024px;
+		margin: 0 auto;
+	}
+
+	.container {
+		width: 1024px;
+		margin: 0 auto;
+	}
+
+	.project {
+		width: 33.3%;
+	}
+	.content img{
+		height: 50vh;
 	}
 }
 
