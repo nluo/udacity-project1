@@ -47,7 +47,8 @@ body{
 	padding: 1%;
 }
 
-.project .description .link {
+.project .description a {
 	padding-bottom: 2%;
-	
+	color: black;
+	text-decoration: none;
 }
