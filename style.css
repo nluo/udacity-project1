@@ -45,8 +45,8 @@ body{
 	background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     background-image: url('images/tile-bg-2.jpg');
 }
 .container {
