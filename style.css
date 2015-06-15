@@ -14,7 +14,9 @@ body{
 
 .header {
 	display: flex;
+	display: -webkit-flex;
 	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
 }
 
 .header-container {
@@ -26,7 +28,7 @@ body{
 
 .header .about {
 	text-align: right;
-	width: 80%%;
+	width: 80%;
 }
 .header .about .name {
 	font-size: 350%;
@@ -55,7 +57,9 @@ body{
 .container {
 	width: 100%;
 	display: flex;
+	display: -webkit-flex;
 	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
 }
 
 .box img {
@@ -107,7 +111,6 @@ body{
 		width: 90vw;
 		margin: 0 auto;
 	}
-	
 	.project {
 		width: 33.3%;
 	}
