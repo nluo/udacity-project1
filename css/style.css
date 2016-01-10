@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100);
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #222;
+    margin: 0;
+    background: #f6f6fa;
+}
+
+.box {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.header-container {
+    border-bottom: 3px solid #bcbbbb;
+    width: 100vw;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+}
+
+.header .about {
+    text-align: right;
+    width: 80%;
+}
+.header .about .name {
+    font-size: 350%;
+    color: #BCBBBB;
+}
+
+.header .about .role {
+    font-size: 80%;
+    color: #BCBBBB;
+    font-weight: bold;
+}
+
+.header .logo {
+    width: 20%;
+}
+
+.header .logo .round {
+    padding: 2%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-image: url('images/tile-bg-2.jpg');
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.box-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.featured-work {
+    color: #bcbbbb;
+    margin-left: 2%;
+}
+
+.project-img {
+    width: 100%;
+    height: 200px;
+}
+
+.project .description {
+    text-align: center;
+
+}
+
+.project .description .title {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 1%;
+}
+
+.project .description a {
+    padding-bottom: 2%;
+    color: black;
+    text-decoration: none;
+    font-size: 0.8em
+}
+
+@media (max-width: 600px) {
+    .header {
+        width: 90vw;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 968px) {
+
+    .header {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .project {
+        width: 33.3%;
+    }
+
+    .box-img {
+        height: 50vh;
+    }
+}
+
+@media (min-width: 968px) {
+    
+    .header {
+        width: 968px;
+        margin: 0 auto;
+    }
+
+    .header-container {
+        width: 968px;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 968px;
+        margin: 0 auto;
+    }
+
+    .project {
+        width: 33.3%;
+    }
+
+    .box-img {
+        height: 50vh;
+    }
+}
