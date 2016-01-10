@@ -1,0 +1,22 @@
+{
+  "name": "udacity-project1",
+  "version": "1.0.0",
+  "description": "A portfolio site for udacity project 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nluo/udacity-project1.git"
+  },
+  "author": "Nick Luo <nick.luo@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nluo/udacity-project1/issues"
+  },
+  "homepage": "https://github.com/nluo/udacity-project1#readme",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  }
+}

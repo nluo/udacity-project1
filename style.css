@@ -115,13 +115,13 @@ body{
 		width: 33.3%;
 	}
 
-	..box-img {
+	.box-img {
 		height: 50vh;
 	}
 }
 
 @media (min-width: 968px) {
-
+    
 	.header {
 		width: 968px;
 		margin: 0 auto;
