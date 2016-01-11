@@ -4,7 +4,7 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #222;
-    margin: 0;
+    margin: 5% 0;
     background: #f6f6fa;
 }
 
@@ -81,7 +81,6 @@ body{
 
 .project .description {
     text-align: center;
-
 }
 
 .project .description .title {
@@ -90,17 +89,14 @@ body{
     padding: 1%;
 }
 
-.project .description a {
-    padding-bottom: 2%;
-    color: black;
-    text-decoration: none;
-    font-size: 0.8em
-}
-
 @media (max-width: 600px) {
     .header {
         width: 90vw;
         margin: 0 auto;
+    }
+
+    .project {
+    	margin-top:1%;
     }
 }
 
